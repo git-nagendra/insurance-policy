@@ -94,6 +94,10 @@ p {
 .mobile{
   display: none;
 }
+.Start_btn{
+  background: #c0c702 !important;
+  color: #ffffff !important;
+}
 @media screen and (max-width: 778px){
   .mobile{
     display: block;
