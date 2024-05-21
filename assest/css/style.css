@@ -10,7 +10,7 @@
   background: #ffffff;
 }
 .logo_wrapper {
-  height: 60px;
+  height: 66px;
   width: 120px;
 }
 .logo_wrapper img {
@@ -91,7 +91,18 @@ p {
   border-radius: 5px;
   cursor: pointer;
 }
-
+.mobile{
+  display: none;
+}
+@media screen and (max-width: 778px){
+  .mobile{
+    display: block;
+  }
+  .Kranti_text{
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
 @media screen and (max-width: 480px) {
   .image_card_wrapper {
     display: grid;
