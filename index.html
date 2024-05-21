@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unique|Management|Services</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <!--bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <!--font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logo_wrapper">
+              <img src="./assest/images/logo.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <h4 class="m-0 Kranti_text">Kranti Inspection</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="hero">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-6">
+            <div class="hreo_text">
+              <h5>Photo upload for Inspection</h5>
+              <p>
+                Click on the images and click each photo matching the angles
+                shown. Retake if the images are not clear.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 ">
+          <div class="col-12">
+            <div class="image_card_wrapper">
+              <div class="card_inner" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="card_image">
+                  <img src="./assest/images/rite-image.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-between px-1 py-2">
+                  <p style="font-weight: 500;">Front View</p>
+                  <div>
+                    <i class="fa fa-info-circle me-2"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card_inner"></div>
+              <div class="card_inner"></div>
+              <div class="card_inner"></div>
+              <div class="card_inner"></div>
+              <div class="card_inner"></div>
+              <div class="card_inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div id="exampleModalLabel">
+              <h1 class="modal-title">Left Side View</h1>
+              <p class="popup_text">Driver's side of the vehicle</p>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="image_card_wrapper">
+              <div class="card_inner popup">
+                <div class="card_image">
+                  <img src="./assest/images/rite-image.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer w-100 justify-content-start align-items-start">
+            <div class="w-100">
+              <p class="popup_text" style="margin-top: 3px;">In the image, below parts of the vehicle should be clearly visible:</p>
+              <ul class="car_list mt-3">
+                <li><i class="fa-regular fa-circle-check me-1"></i>Tick Windows</li>
+                <li><i class="fa-regular fa-circle-check me-1"></i>Tick Doors</li>
+                <li><i class="fa-regular fa-circle-check me-1"></i>Tick Right Side Tyres</li>
+                <li><i class="fa-regular fa-circle-check me-1"></i>Tick Right side view of front and rear bumper
+                </li>
+              </ul>
+              <div class="d-flex justify-content-end">
+                <div class="camera">
+                  <i class="fa-solid fa-camera"></i>
+                </div>
+              </div>
+            </div>
+            
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- app js -->
+    <script src="./assest/js/app.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
