@@ -24,7 +24,6 @@
 .hero {
   background: #f2f7fc;
   width: 100%;
-  height: 100vh;
 }
 .image_card_wrapper {
   display: grid;
@@ -101,5 +100,11 @@ p {
     gap: 10px; 
     
     
+  }
+  .card_image {
+    height: 108px;
+    width: inherit;
+    background: #ffffff;
+    border-radius: 5px;
   }
 }
