@@ -95,7 +95,7 @@
   width: inherit;
   background: #ffffff;
   border-radius: 5px;
-  border: 2px solid red;
+  overflow: hidden;
 }
 .card_image img {
   height: 100%;
